@@ -1,0 +1,65 @@
+@media only screen and (min-width: 1100px) {
+  body {
+    display: flex;
+  }
+
+  header.main {
+    background-color: #012519;
+    position: sticky;
+    height: 100vh;
+  }
+
+  .navbar {
+    flex-direction: column;
+    opacity: 1;
+  }
+
+  .button {
+    flex-direction: column;
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .active {
+    background-color: #133f14;
+    color: #fff;
+  }
+
+  .button .fa {
+    font-size: 2rem;
+  }
+
+  .navbar .fa,
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .conteiner {
+    width: 100%;
+    align-items: center;
+    padding: 24px 60px;
+  }
+
+  .content {
+    width: 100%;
+    min-height: 95vh;
+    max-width: 1080px;
+    justify-content: space-between;
+  }
+
+  .grid-photos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .half {
+    width: 48.5%;
+    margin: 0 5px;
+  }
+
+  .hidden-text {
+    display: inline;
+  }
+}

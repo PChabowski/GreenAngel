@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule Strona-glowna index.html
+RewriteRule O-stajni Stajnia/index.html
+RewriteRule Zdjecia Stajnia/photos.html
+RewriteRule Kalendarz-imprez Stajnia/events.html
+RewriteRule Kontakt-do-mnie Stajnia/contact.html
